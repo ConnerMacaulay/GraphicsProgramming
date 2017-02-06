@@ -13,6 +13,8 @@ public:
 	~Display();
 	void initDisplay();
 	void swapBuffer();
+	void clear();
+	SDL_GLContext glContext();
 
 private:
 
