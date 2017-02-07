@@ -14,7 +14,7 @@ private:
 	glm::vec3 pos;
 };
 
-class Mesh
+class Mesh 
 {
 public:
 	Mesh(vertex* vertices, unsigned int numVertecies);

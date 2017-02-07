@@ -79,4 +79,16 @@ Shader::Shader(const std::string&filename)
 	}
 
 	glBindAttribLocation(program, 0, "position");
+	glLinkProgram(program);//create executables that will run on the GPU shaders
+	CheckShaderError(program, GL_VALIDATE_STATUS, true, "Error:Shader program not valid");
+}
+
+Shader:: ~Shader()
+{
+	for (unsigned int i; i < NUM_SHADERS; i++)
+	{
+		glDetachShader(program, shaders[i]);//detach shader from program
+		glDetachShader(shaders[i]);//detach the shaders
+	}
+	glDeleteProgram(program);
 }

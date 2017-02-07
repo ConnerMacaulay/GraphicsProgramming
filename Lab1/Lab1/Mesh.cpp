@@ -27,3 +27,4 @@ void Mesh::Draw()
 	glBindVertexArray(0);
 }
 
+Vertex verts[] = { Vertex(glm::vec3(some vector)), another vertex, another vertex }
