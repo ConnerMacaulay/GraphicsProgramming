@@ -1,0 +1,25 @@
+﻿Build started 13/02/2017 11:24:33.
+     1>Project "C:\Users\cmacau200\Desktop\Lab2\Lab2\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Display.cpp main.cpp MainGame.cpp Mesh.cpp Shader.cpp
+         Shader.cpp
+         Mesh.cpp
+         MainGame.cpp
+         main.cpp
+         Display.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /D _MBCS /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt stb_image.c
+         stb_image.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\cmacau200\Desktop\Lab2\Lab2\Debug\Lab1.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\cmacau200\Desktop\Lab2\Lab2\Debug\Lab1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\cmacau200\Desktop\Lab2\Lab2\Debug\Lab1.lib" /MACHINE:X86 Debug\Display.obj
+         Debug\main.obj
+         Debug\MainGame.obj
+         Debug\Mesh.obj
+         Debug\Shader.obj
+         Debug\stb_image.obj
+         Lab1.vcxproj -> C:\Users\cmacau200\Desktop\Lab2\Lab2\Debug\Lab1.exe
+     1>Done Building Project "C:\Users\cmacau200\Desktop\Lab2\Lab2\Lab1\Lab1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.82
