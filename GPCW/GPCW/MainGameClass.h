@@ -16,10 +16,10 @@ public:
 
 private:
 
-	void loadSystems();
-	void checkInput();
-	void mainGameLoop();
-	void projectGame();
+	void loadSystems(); //initilise the system
+	void checkInput(); //check for any inputs ie keypress, controller buttons
+	void mainGameLoop(); //run through the main loop of the game 
+	void projectGame(); //Display the proccess onto the screen
 
 	DisplayClass _gameDisplay;
 	GameState _gameState;
