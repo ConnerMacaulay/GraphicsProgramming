@@ -1,22 +1,19 @@
-﻿Build started 06/03/2017 15:05:14.
-     1>Project "C:\Users\Conner\Documents\GitHub\GraphicsProgramming\Lab1\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 27/04/2017 19:28:41.
+     1>Project "D:\GraphicsProgramming\GraphicsProgramming\GraphicsProgramming\Lab1\Lab1\Lab1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Display.cpp main.cpp MainGame.cpp Mesh.cpp Shader.cpp
+         D:\Programs\Games Development\VisualStudio2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Mesh.cpp Shader.cpp
          Shader.cpp
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\shader.cpp(91): error C2198: 'PFNGLDETACHSHADERPROC' : too few arguments for call
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\shader.cpp(91): error C2198: 'PFNGLDETACHSHADERPROC' : too few arguments for call
          Mesh.cpp
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2146: syntax error : missing ';' before identifier 'verts'
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2065: 'some' : undeclared identifier
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2146: syntax error : missing ')' before identifier 'vector'
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2143: syntax error : missing ';' before '}'
-     1>c:\users\conner\documents\github\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2059: syntax error : '}'
-         MainGame.cpp
-         main.cpp
-         Display.cpp
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2146: syntax error : missing ';' before identifier 'verts'
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2065: 'some' : undeclared identifier
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2146: syntax error : missing ')' before identifier 'vector'
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2143: syntax error : missing ';' before '}'
+     1>d:\graphicsprogramming\graphicsprogramming\graphicsprogramming\lab1\lab1\mesh.cpp(30): error C2059: syntax error : '}'
          Generating Code...
-     1>Done Building Project "C:\Users\Conner\Documents\GitHub\GraphicsProgramming\Lab1\Lab1\Lab1.vcxproj" (Build target(s)) -- FAILED.
+     1>Done Building Project "D:\GraphicsProgramming\GraphicsProgramming\GraphicsProgramming\Lab1\Lab1\Lab1.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:13.08
+Time Elapsed 00:00:00.97
